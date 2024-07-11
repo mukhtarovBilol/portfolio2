@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en" class="close">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header__bg-video">
+            <video src="./image/header/video.mp4" muted loop playsinline autoplay class="header__video"></video>
+            <img src="image/header/for-bg.svg" alt="" class="header__video">
+        </div>
+        <div class="container">
+            <nav class="nav">
+                <div class="container">
+                    <div class="nav__menu">
+                        <div class="nav__common">
+                            <ul class="nav__list">
+                                <li class="nav__list-item">
+                                    <a href="" class="nav__list-link">Разработка сайтов</a>
+                                </li>
+                                <li class="nav__list-item ">
+                                    <a href="seo.html" class="nav__list-link icons">SEO</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a href="reklama.html" class="nav__list-link icons">Контекстная реклама</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a href="portfolio.html" class="nav__list-link">Портфолио</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a href="about.html" class="nav__list-link">О нас</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="nav__phone">Обсудить проект</button>
+                        <div class="nav__burger" onclick="toggleMenu()">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                    <div class="nav__desc">
+                        <p class="nav__desc-txt">Маркетинговая диджитал компания Kelyanmedia</p>
+                        <a href="#!" class="nav__desc-link">+998 33 339 33 34</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__content-title" data-src="Разработка и создание сайтов">Разработка и создание сайтов </h1>
+                <p class="header__content-txt">Каждая компания, занимающаяся тем или иным бизнесом, со временем приходит
+                    к тому, чтобы создать сайт. Своевременно созданный сайт –не только визитка и лицо компании, но
+                    дополнительные продажи.</p>
+                <div class="header__content-btns">
+                    <button class="header__content-btn">ОБСУДИТЬ ПРОЕКТ</button>
+                    <a href="" class="header__content-btn">ПОСМОТРЕТЬ КЕЙСЫ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="open">
+        <section class="site">
+            <div class="container">
+                <h2 class="site__title title">Какие задачи решает бизнес сайт</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper site__cards">
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <div class="site__card-info">
+                                    <span class="site__card-span">1</span>
+                                    <div class="site__card-desc">
+                                        <h3 class="site__card-title">LANDING PAGE САЙТ</h3>
+                                        <p class="site__card-txt">Landing Page – одностраничный сайт, созданный с целью
+                                            сбора данных будущих покупателей, а также более емкого представления товара
+                                            либо услуги</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <div class="site__card-info">
+                                    <span class="site__card-span">2</span>
+                                    <div class="site__card-desc">
+                                        <h3 class="site__card-title">КОРПОРАТИВНЫЙ САЙТ ПОД КЛЮЧ</h3>
+                                        <p class="site__card-txt">Корпоративный сайт подробно рассказывает информацию о
+                                            компании: описание, какие товары либо услуги реализует, условия
+                                            сотрудничества, контакты и другая информация. Часто корпоративные сайты
+                                            создаются как внутренний веб-ресурс, на котором публикуют информацию для
+                                            сотрудников.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <div class="site__card-info">
+                                    <span class="site__card-span">3</span>
+                                    <div class="site__card-desc">
+                                        <h3 class="site__card-title">РАЗРАБОТКА ИНТЕРНЕТ МАГАЗИНА</h3>
+                                        <p class="site__card-txt">Интернет-магазин – онлайн-версия магазина с
+                                            виртуальной витриной. При комплексном подходе создаются разделы для каждого
+                                            товара, его описания, предложения, внедряется CRM-система. Хороший
+                                            инструмент для увеличения продаж, его контроля, расширения базы клиентов с
+                                            помощью подписки на рассылки, удобная оплата, условия доставки.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <div class="site__card-info">
+                                    <span class="site__card-span">4</span>
+                                    <div class="site__card-desc">
+                                        <h3 class="site__card-title">РАЗРАБОТКА САЙТОВ ДЛЯ БИЗНЕСА</h3>
+                                        <p class="site__card-txt">Бизнес-сайт – визитная карточка компании, презентация
+                                            в сети и ее лицо. Такие сайты создаются для привлечения как новых клиентов,
+                                            так и партнеров, поставщиков. Интерактивное представление веб-ресурса
+                                            позволит быстрее взаимодействовать со всеми пользователями.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <div class="site__card-info">
+                                    <span class="site__card-span">5</span>
+                                    <div class="site__card-desc">
+                                        <h3 class="site__card-title">САЙТ ВИЗИТКА</h3>
+                                        <p class="site__card-txt">Сайт- визитка – одностраничный либо состоящий из
+                                            нескольких страниц web-сайт. Ресурс содержит информацию о компании, товарах,
+                                            услугах, ценах, контактный данные. Отличный вариант для тех, кто не хочет
+                                            тратить первое время много денег на разработку большого сайта.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <div class="site__card-info">
+                                    <span class="site__card-span">6</span>
+                                    <div class="site__card-desc">
+                                        <h3 class="site__card-title">РАЗРАБОТКА ECOMMERCE ПРОЕКТОВ</h3>
+                                        <p class="site__card-txt">E-commerce проекты – электронная торговля, где все
+                                            сделки совершаются онлайн. Каждый проект индивидуален. Здесь могут быть
+                                            расширенные функции, фильтры, дополнения для контроля сделок и многое
+                                            другое.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="question">
+            <div class="container">
+                <h2 class="question__title title">Какие задачи решает веб сайт</h2>
+                <ul class="question__cards">
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Увеличение прибыли</h3>
+                        <div class="answer">
+                            <p>От внешнего вида лендинга зависит доверие и интерес клиентов. Дизайн должен не только цеплять человека, но и фокусировать его внимание на самом главном.</p>
+                        </div>
+                    </li>
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Эффективная структура</h3>
+                        <div class="answer">
+                            <p>Информация нуждается в правильной последовательности, ведь без этого невозможно достигнуть максимальных результатов. Корректная структура важна для улучшения конверсии.</p>
+                        </div>
+                    </li>
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Факторы доверия</h3>
+                        <div class="answer">
+                            <p>Хорошие продажи основываются на доверии. Доверие основывается на честности, правдивых отзывах и рекомендациях.</p>
+                        </div>
+                    </li>
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Уникальное торговое предложение</h3>
+                        <div class="answer">
+                            <p>Правильно составленное УТП помогает привлечь внимание клиентов и сделать предложение более привлекательным.</p>
+                        </div>
+                    </li>
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Новые возможности</h3>
+                        <div class="answer">
+                            <p>Веб-сайт может обеспечивать круглосуточные продажи, что отличает его от традиционных магазинов или офисов с ограниченным графиком работы.</p>
+                        </div>
+                    </li>
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Ответы на вопросы</h3>
+                        <div class="answer">
+                            <p>Каждый веб-сайт должен иметь раздел с ответами на часто задаваемые вопросы, что помогает клиентам быстрее находить нужную информацию и повышает эффективность продаж.</p>
+                        </div>
+                    </li>
+                    <li class="question__card" onclick="toggleAnswer(this)">
+                        <h3 class="question__card-title">Улучшение пользовательского опыта</h3>
+                        <div class="answer">
+                            <p>Внедрение новых систем лояльности, cashback программ, анимации помогает улучшить пользовательский опыт и удерживает клиентов на сайте дольше.</p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="question__link btn">Получить консультацию</button>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title title">Наши преимущества</h2>
+                <div class="advantages__wrapper">
+                    <div class="advantages__card">
+                        <div class="advantages__card-forImage">
+                            <img src="image/advantage/icon1.svg" alt="" class="advantages__desc-image">
+                        </div>
+                        <div class="advantages__desc">
+                            <h3 class="advantages__desc-title">НЕТ НОВИЧКОВ И СТАЖЕРОВ. ТОЛЬКО ОПЫТНЫЕ СПЕЦИАЛИСТЫ</h3>
+                            <p class="advantages__desc-txt">Мы не берем в людей с небольшим опытом, наши сотрудники углубляли экспертизу, работая с локальными и международными брендами.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards">
+                        <div class="advantages__card">
+                            <div class="advantages__card-forImage">
+                                <img src="image/advantage/icon2.svg" alt="" class="advantages__desc-image">
+                            </div>
+                            <div class="advantages__desc">
+                                <h3 class="advantages__desc-title">NPS БОЛЕЕ 85%</h3>
+                                <p class="advantages__desc-txt">Более 85% клиентов рекомендуют нас своим знакомым.</p>
+                            </div>
+                        </div>
+                        <div class="advantages__card">
+                            <div class="advantages__card-forImage">
+                                <img src="image/advantage/icon3.svg" alt="" class="advantages__desc-image">
+                            </div>
+                            <div class="advantages__desc">
+                                <h3 class="advantages__desc-title">ВЫСОКИЙ LTV</h3>
+                                <p class="advantages__desc-txt">Средний период работы с нами - 11 месяцев.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="advantages__btn btn">Получить консультацию</button>
+            </div>
+        </section>
+        <section class="circle">
+            <div class="container">
+                <h2 class="circle__title title">Этапы создания бизнес сайта</h2>
+                <div class="circle__cards">
+                    <div class="circle__card">АНАЛИЗ</div>
+                    <div class="circle__card">ПРОТОТИП</div>
+                    <div class="circle__card">ДИЗАЙН</div>
+                    <div class="circle__card">РАЗРАБОТКА</div>
+                    <div class="circle__card">ЗАПУСК</div>
+                </div>   
+            </div>
+        </section>
+        <section class="whyUs">
+            <div class="container">
+                <h2 class="whyUs__title title">Почему мы</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title"><span>01.</span>РАБОТАЕМ ПО ДОГОВОРУ</h4>
+                            <p class="whyUs__card-txt">Мы не просто составляем договор, а прикрепляем техническое задание со всем функционалом и дедлайнами</p>
+                            <span class="whyUs__card-span"><i class='bx bxs-briefcase'></i></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title"><span>02.</span>ПОЭТАПНАЯ СИСТЕМА ОПЛАТЫ</h4>
+                            <p class="whyUs__card-txt">При превышение стоимости веб сайта выше среднего распределяем оплату на несколько частей 30/20/30/20 либо 70/30</p>
+                            <span class="whyUs__card-span"><i class='bx bx-credit-card'></i></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title"><span>03.</span>ЦЕНИМ НАШИХ КЛИЕНТОВ</h4>
+                            <p class="whyUs__card-txt">В удобных для вас каналах коммуникации.</p>
+                            <span class="whyUs__card-span"><i class='bx bxs-universal-access'></i></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title long"><span>04.</span>клиентоцентричность</h4>
+                            <p class="whyUs__card-txt">Мы досконально изучаем вашу нишу, прописывать предварительный план работ, все согласовываем и только после этого составляем смету и договор</p>
+                            <span class="whyUs__card-span"><i class='bx bx-male'></i></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title"><span>05.</span>СОПРОВОЖДЕНИЕ ПО ВЕБ-САЙТУ</h4>
+                            <p class="whyUs__card-txt">Помогаем с освоением функционала, записываем индивидуальные видео материалы для работы с админ панелью</p>
+                            <span class="whyUs__card-span"><i class='bx bxs-plane-alt' ></i></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title"><span>06.</span>МЫ НЕ НАРУШАЕМ СРОКОВ</h4>
+                            <p class="whyUs__card-txt">Благодаря продуманной и эффективной системе управления проектами мы строго следим за дедлайнами</p>
+                            <span class="whyUs__card-span"><i class='bx bx-no-entry'></i></span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="whyUs__card">
+                            <h4 class="whyUs__card-title"><span>07.</span>КАЖДЫЙ ПРОЕКТ УНИКАЛЕН</h4>
+                            <p class="whyUs__card-txt">Код пишется профессионалами с опытом и каждый проект разрабатывается с нуля без использования шаблонов из интернета</p>
+                            <span class="whyUs__card-span"><i class='bx bx-pencil'></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="faq-section-title title">Часто задаваемые вопросы</h1>
+                <div class="faq-section-cards">
+                    <div class="faq-item">
+                        <div class="faq-title" onclick="toggleFaq(this)">
+                            Цены и преимущества
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="faq-content">
+                            <h2>Цены на создание сайта дешевле, чем у других? </h2>
+                            <p>Наши цены доступные и нередко ниже предлагаемых на рынке Узбекистана. Всё это благодаря эффективным методам оптимизации процесса создания сайтов. Мы предлагаем прекрасные сайты с уникальным дизайном, сохраняя при этом разумный тариф для вашей компании.</p>
+            
+                            <h2>Сколько стоит заказать сайт у вас? </h2>
+                            <p>Заказать сайт под ключ у нас — это инвестиция в ваш бизнес. В зависимости от требований, мы предлагаем всё — от экспресс сайтов до многофункциональных интернет-магазинов.</p>
+            
+                            <h2>Каковы средние цены на создание сайта в Ташкенте и по всему Узбекистану? </h2>
+                            <p>Цены варьируются в зависимости от масштаба и сложности проекта, но наша студия предлагает конкурентоспособные тарифы, обеспечивая исключительное соотношение цена-качество.</p>
+            
+                            <h2>Почему разработать сайт с KelyanMedia выгоднее, чем на бесплатном конструкторе? </h2>
+                            <p>Выбор профессиональной веб-студии гарантирует индивидуальный подход, уникальный дизайн и полноценную техническую поддержку, что вы можете не найти в бесплатных конструкторах сайтов.</p>
+            
+                            <h2>Каковы преимущества создания лендинг пейдж для моего бизнеса? </h2>
+                            <p>Лендинг пейдж — это мощный инструмент для увеличения конверсии и привлечения внимания к вашим продуктам или услугам, что особенно важно в конкурентной среде.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" onclick="toggleFaq(this)">
+                            Процесс и технологии разработки сайта
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="faq-content">
+                            <h2>За какое время вы сможете создать и запустить сайт?</h2>
+                            <p>Время разработки веб-сайта зависит от его сложности, но мы стремимся к максимальной оперативности, предоставляя вам функциональный сайт в минимальные сроки.</p>
+            
+                            <h2>Каковы основные этапы разработки веб-сайта в вашей студии?</h2>
+                            <p>Наш процесс включает всё: от планирования до запуска, с акцентом на дизайн и функционал. Вначале идет сбор информации о сайте и референсов, далее прототип сайта, где определяется вся структура блоков и расположение, а после идет защита макета с проработанным дизайном. Далее переходим на этап верстки, создание анимаций, подключение функционала и тестирование работы веб-сайта. Все этапы продуманы и оптимизированы под ваши нужды, чтобы ваш сайт был не только прекрасным, но и эффективным.</p>
+            
+                            <h2>Какие технологии используются при создании сайтов?</h2>
+                            <p>Наши специалисты используют передовые технологии веб-разработки для создания современных сайтов, которые полностью соответствуют потребностям вашего бизнеса. Для нескольких решений мы используем WordPress, для более крупных проектов или интернет магазинов используем PHP Laravel.</p>
+            
+                            <h2>Что такое «создание сайтов под ключ» и как этот процесс проходит в вашей студии?</h2>
+                            <p>Создание сайтов "под ключ" — это комплексный подход, включающий в себя все этапы разработки, от начальной концепции до запуска и поддержки сайта.</p>
+            
+                            <h2>Какие виды сайтов вы разрабатываете и какой из них будет оптимальным для моей компании?</h2>
+                            <p>Мы специализируемся на разработке различных типов сайтов, от информационных до интернет-магазинов. Оптимальный выбор зависит от целей и потребностей вашего бизнеса, и мы поможем вам сделать лучший выбор.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" onclick="toggleFaq(this)">
+                            Взаимодействие с клиентом
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="faq-content">
+                            <h2>Нужно ли нам встречаться лично и обсуждать детали по созданию сайта?</h2>
+                            <p>Зависит от ваших приоритетов. Мы можем встретиться лично и обсудить все детали, но также мы ценим ваше время, поэтому все обсуждения можно провести онлайн, предоставляя вам удобство и гибкость при планировании вашего сайта.</p>
+            
+                            <h2>Могу ли я следить за процессом разработки моего сайта? </h2>
+                            <p>Конечно, мы предоставляем возможность следить за каждым этапом создания вашего сайта, обеспечивая полную прозрачность процесса. Также мы проводим созвоны, на каждом обсуждая и рассказывая что проделано в ходе разработки.</p>
+            
+                            <h2>Какие изменения я могу внести в сайт без дополнительной платы? </h2>
+                            <p>Мы предоставляем определенный объем бесплатных корректировок в рамках проекта, чтобы ваш сайт полностью соответствовал вашим ожиданиям.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" onclick="toggleFaq(this)">
+                            Об услугах и поддержке
+                            <span class="arrow">&#9660;</span>
+                        </div>
+                        <div class="faq-content">
+                            <h2>Мобильная версия сайта включена? </h2>
+                            <p>Каждый сайт, разработанный нами, оптимизирован для мобильных устройств, обеспечивая идеальное отображение и удобство для пользователей.</p>
+            
+                            <h2>Какие еще услуги включены в стоимость разработки сайта?  </h2>
+                            <p>В стоимость включена не только разработка сайта, но и его техническая поддержка. Оптимизация для поисковых систем предлагается отдельно.</p>
+            
+                            <h2>Предоставляете ли вы услуги по хостингу и регистрации доменного имени?  </h2>
+                            <p>Нет, мы не предлагаем хостинг и регистрацию доменного имени в своих услугах, но мы можем настроить ваш сайт под любой хостинг.</p>
+
+                            <h2>Как выглядит процесс технической поддержки вашей студии после запуска сайта? </h2>
+                            <p>Наша техническая поддержка после запуска сайта включает в себя все необходимые услуги для обеспечения стабильной и эффективной работы вашего сайта. Но имейте ввиду, что вы берете ответственность за любые изменения в коде с вашей стороны.</p>
+            
+                            <h2>Как ваша студия помогает в продвижении созданных сайтов? </h2>
+                            <p>Мы предлагаем комплексные услуги по продвижению сайтов, включая SEO-оптимизацию, контекстную рекламу в Google и Yandex, а также другие маркетинговые кампании, чтобы увеличить вашу онлайн-видимость и привлечь больше потенциальных клиентов.</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <section class="submit">
+            <div class="container">
+                <div class="submit__desc">
+                    <h2 class="submit__desc-title ">Оставить заявку</h2>
+                    <p class="submit__desc-txt">Смело отправляйте заявку прямо сейчас! Наши специалисты помогут бесплатно провести диагностику ваших аккаунтов. Мы всегда открыты для общения и готовы ответить на любые вопросы.</p>
+                </div>
+                <form class="submit__form">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="number" class="form__number" name="phone" placeholder="Ваш телефон: + X" required>
+                    <span>Нажимая на кнопку, вы даете согласие на <a href=""> обработку персональных данных</a>.</span>
+                    <button  type="submit" class="submit__btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <h4 class="footer__list-title">ИНФОРМАЦИЯ:</h4>
+                <li class="footer__list-item">
+                    <a href="portfolio.html" class="footer__list-link">Кейсы</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="about.html" class="footer__list-link">О нас</a>
+                </li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">УСЛУГИ:</h4>
+                <li class="footer__list-item">Разработка сайтов</li>
+                <li class="footer__list-item">Интернет маркетинг</li>
+                <li class="footer__list-item"> SEO оптимизация</li>
+                <li class="footer__list-item">Контекстная реклама</li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">СОЗДАНИЕ САЙТОВ:</h4>
+                <li class="footer__list-item">Разработка Landing Page</li>
+                <li class="footer__list-item">Разработка корпоративного сайта</li>
+                <li class="footer__list-item"> Разработка интернет магазинов</li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">КОНТАКТЫ:</h4>
+                <li class="footer__list-item">
+                    <a href=""  class="footer__list-contact"><i class='bx bxs-phone' ></i> +998 33 339 3334</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="" class="footer__list-contact"><i class='bx bxl-gmail' ></i>kelyanmedia@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
