@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="modal/css/style.css">
+    <link rel="stylesheet" href="modal/css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="description" content="Профессиональная SEO-оптимизация для повышения видимости вашего сайта в поисковых системах. Мы предлагаем комплексные услуги для улучшения ранжирования и привлечения целевого трафика.">
+    <meta name="copyright" content="Web Top">
+    <meta itemprop="name" content="SEO-Оптимизация | Web Top">
+    <meta itemprop="url" content="https://www.yourwebsite.com/seo">
+    <meta itemprop="description" content="Наша команда экспертов по SEO поможет вашему сайту занять высокие позиции в поисковых системах и увеличить органический трафик.">
+    <meta name="keywords" content="SEO, поисковая оптимизация, продвижение сайта, оптимизация для поисковых систем, SEO услуги">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.yourwebsite.com/path-to-seo-image.jpg">
+    <meta property="og:title" content="SEO-Оптимизация | Web Top">
+    <meta property="og:description" content="Комплексная SEO-оптимизация для вашего сайта. Улучшите видимость и привлеките целевой трафик с помощью наших профессиональных услуг.">
+    <meta property="og:url" content="https://www.yourwebsite.com/seo">
+    <meta property="og:site_name" content="Web Top">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__bg-video">
+            <video src="./image/header/video-for-seo.mp4" muted loop playsinline autoplay class="header__video"></video>
+            <img src="image/header/for-bg.svg" alt="" class="header__video">
+        </div>
+        <div class="container">
+            <nav class="nav">
+                <div class="container">
+                    <div class="nav__menu">
+                        <div class="nav__common">
+                            <ul class="nav__list">
+                                <li class="nav__list-item">
+                                    <a href="index.html" class="nav__list-link">Разработка сайтов</a>
+                                </li>
+                                <li class="nav__list-item ">
+                                    <a href="seo.html" class="nav__list-link icons">SEO</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a href="reklama.html" class="nav__list-link icons">Контекстная реклама</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a href="portfolio.html" class="nav__list-link">Портфолио</a>
+                                </li>
+                                <li class="nav__list-item">
+                                    <a href="about.html" class="nav__list-link">О нас</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="nav__phone modal-btn" data-src="noHelp">Обсудить проект</button>
+                        <div class="nav__burger" onclick="toggleMenu()">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                    <div class="nav__desc">
+                        <p class="nav__desc-txt">Маркетинговая диджитал компания Web Top</p>
+                        <div class="nav__desc-language">
+                            <a href="tel:+994514119537" class="nav__desc-link">+994 51 411 95 37</a>
+                            <div class="nav__language-current">
+                                <div id="currentFlag">
+                                    <img src="image/header/russia.jfif" alt="Current Language" class="nav__language-image" >
+                                    <p class="nav__language-image" >Русский</p>
+                                </div>
+                                <div class="nav__language-dropdown" id="languageDropdown">
+                                    <a href="azerbaijan/index.html" class="nav__language-option" data-country="az" data-flag="path/to/azerbaijan-flag.jpg">
+                                        <img src="image/header/az.jpg" alt="Azerbaijan Flag" class="nav__language-image">
+                                        Azerbaijan
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__content-title" data-src="SEO оптимизация сайта ">SEO оптимизация сайта </h1>
+                <p class="header__content-txt">Предлагаем комплекс работ по оптимизации и продвижению сайта, которые
+                    будут способствовать росту объемов органического трафика и улучшению конверсий.</p>
+                <div class="header__content-btns">
+                    <button class="header__content-btn modal-btn" data-src="noHelp">ОБСУДИТЬ ПРОЕКТ</button>
+                    <a href="portfolio.html" class="header__content-btn">ПОСМОТРЕТЬ КЕЙСЫ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="open">
+        <section class="approach">
+            <div class="container">
+                <h2 class="approach__title title">Наш подход</h2>
+                <div class="approach__desc">
+                    <div class="approach__cards">
+                        <div class="approach__card">
+                            <span class="approach__card-span">1</span>
+                            <div class="approach__card-desc">
+                                <h3 class="approach__card-desc-title">АНАЛИЗ СФЕРЫ ДЕЯТЕЛЬНОСТИ</h3>
+                                <p class="approach__card-desc-txt">Определяем цели проекта. Изучаем нишу и сайты
+                                    конкурентов. Разрабатываем стратегию развития и продвижения сайта</p>
+                            </div>
+                        </div>
+                        <div class="approach__card">
+                            <span class="approach__card-span">2</span>
+                            <div class="approach__card-desc">
+                                <h3 class="approach__card-desc-title">ДОЛГОСРОЧНЫЙ ПЛАН РАБОТ</h3>
+                                <p class="approach__card-desc-txt">Детально анализируем техническую, контентную и
+                                    ссылочную составляющую сайта. Исправляем все технические ошибки, пишем качественные
+                                    тексты и активно развиваем ссылочный профиль сайта.</p>
+                            </div>
+                        </div>
+                        <div class="approach__card">
+                            <span class="approach__card-span">3</span>
+                            <div class="approach__card-desc">
+                                <h3 class="approach__card-desc-title">РАБОТА НА РЕЗУЛЬТАТ</h3>
+                                <p class="approach__card-desc-txt">Гарантируем увеличение объемов органического трафика
+                                    и конверсий. Делаем детальные ежемесячные отчеты по выполненным работам.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./image/forSeo/grafik.svg" alt="" class="approach__desc-image">
+                </div>
+                <button class="question__link btn modal-btn" data-src="help">Получить консультацию</button>
+            </div>
+        </section>
+        <section class="site">
+            <div class="container">
+                <h2 class="site__title title">Какие задачи решает бизнес сайт</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">1</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">НЕ НУЖНО ПЛАТИТЬ ЗА ПЕРЕХОДЫ</h3>
+                                    <p class="site__card-txt">И в самом деле, поисковики не взимают плату за клики в
+                                        органической выдаче, поэтому вам не нужно платить за пользователей, пришедших из
+                                        поиска.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">2</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">ГОРЯЧИЙ ТРАФИК</h3>
+                                    <p class="site__card-txt">Пользователи сами ищут товар или услугу и для этого
+                                        вбивают запросы в поиске. Важно, что они ищут это в режиме реального времени.
+                                        Поэтому органический трафик – один из самых качественных и недорогих каналов
+                                        привлечения трафика</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">3</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">СБОР СЯ И КОРРЕКТИРОВКА СТРУКТУРЫ</h3>
+                                    <p class="site__card-txt">Собираем семантическое ядро и кластеризируем запросы в
+                                        группы. При необходимости, корректируем структуру сайта в соответствии с
+                                        собранным СЯ.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">4</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">ПОВТОРНЫЕ ПРОДАЖИ И ЛОЯЛЬНОСТЬ КЛИЕНТОВ</h3>
+                                    <p class="site__card-txt">При качественной оптимизации и хорошо продуманной
+                                        структуре сайта, удобной карточке товара или услуги, пользователь запоминает
+                                        сайт и может возвращаться обратно уже по брендовым запросам.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">5</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">ГИБКИЙ ВЫБОР ЗАПРОСОВ</h3>
+                                    <p class="site__card-txt">Вы самостоятельно определяете список запросов, который
+                                        хотите продвигать в поиске</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">6</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">РАБОТАЕМ НАД КОДОМ ВЕБ-САЙТА</h3>
+                                    <p class="site__card-txt">Нужно помнить, что Google и Яндекс выводят в ТОП только
+                                        качественные, полезные и удобные сайты. Соответственно, наши специалисты не
+                                        просто выводят страницы в ТОП-10, а делают сам сайт лучше.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">7</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">КОНТЕНТНАЯ ОПТИМИЗАЦИЯ</h3>
+                                    <p class="site__card-txt">Оптимизируем текстовый контент: тексты и мета теги Title,
+                                        Description.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">8</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">ССЫЛОЧНАЯ ОПТИМИЗАЦИЯ</h3>
+                                    <p class="site__card-txt">Проводим аудит ссылочной массы сайта. Разрабатываем
+                                        стратегию по наращиванию объемов ссылочного профиля.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="site__card">
+                                <span class="site__card-span">9</span>
+                                <div class="site__card-info">
+                                    <h3 class="site__card-title">ЕЖЕМЕСЯЧНАЯ ОТЧЕТНОСТЬ</h3>
+                                    <p class="site__card-txt">Каждый месяц готовым отчетность по выполненным работам, по
+                                        динамике роста ключевых запросов и объемам органического трафик.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title title">Наши преимущества</h2>
+                <div class="advantages__wrapper">
+                    <div class="advantages__card">
+                        <div class="advantages__card-forImage">
+                            <img src="image/advantage/icon1.svg" alt="" class="advantages__desc-image">
+                        </div>
+                        <div class="advantages__desc">
+                            <h3 class="advantages__desc-title">НЕТ НОВИЧКОВ И СТАЖЕРОВ. ТОЛЬКО ОПЫТНЫЕ СПЕЦИАЛИСТЫ</h3>
+                            <p class="advantages__desc-txt">Мы не берем в людей с небольшим опытом, наши сотрудники
+                                углубляли экспертизу, работая с локальными и международными брендами.</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards">
+                        <div class="advantages__card">
+                            <div class="advantages__card-forImage">
+                                <img src="image/advantage/icon2.svg" alt="" class="advantages__desc-image">
+                            </div>
+                            <div class="advantages__desc">
+                                <h3 class="advantages__desc-title">NPS БОЛЕЕ 85%</h3>
+                                <p class="advantages__desc-txt">Более 85% клиентов рекомендуют нас своим знакомым.</p>
+                            </div>
+                        </div>
+                        <div class="advantages__card">
+                            <div class="advantages__card-forImage">
+                                <img src="image/advantage/icon3.svg" alt="" class="advantages__desc-image">
+                            </div>
+                            <div class="advantages__desc">
+                                <h3 class="advantages__desc-title">ВЫСОКИЙ LTV</h3>
+                                <p class="advantages__desc-txt">Средний период работы с нами - 11 месяцев.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="advantages__btn btn modal-btn" data-src="help">Получить консультацию</button>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="faq-section-title title">Часто задаваемые вопросы</h1>
+                    <div class="faq-section-cards">
+                        <div class="faq-item">
+                            <div class="faq-title" onclick="toggleFaq(this)">
+                                Основы SEO и понимание процесса:
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div class="faq-content">
+                                <p>Что такое SEO оптимизация?
+                                    Это процесс улучшения поисковой видимости вашего сайта в поисковых системах. Он
+                                    включает в себя внутреннюю и техническую оптимизацию, а также раскрутка сайта в
+                                    поисковых системах.
+                                    <br><br>
+                                    Что входит в SEO оптимизацию?
+                                    Процесс включает в себя внутреннюю и техническую оптимизацию, а также повышение
+                                    позиций сайта в поисковых системах.
+                                    <br><br>
+                                    Что означает термин «Search Engine Optimization»?
+                                    «Search Engine Optimization» — буквально «Оптимизация для Поисковых Систем».
+                                    Означает оптимизацию сайта для улучшения его позиций в результатах поисковых систем
+                                    и увеличения целевого трафика.
+                                    <br><br>
+                                    Как SEO помогает продвигать сайты в топ поисковых систем?
+                                    Помогает улучшить ранжирование сайтов в поисковых системах, оптимизируя их для
+                                    соответствующих ключевых слов и улучшая общую пользовательскую функциональность.
+                                    <br><br>
+                                    Каковы ключевые аспекты раскрутки сайта через SEO-продвижение?
+                                    Оптимизацию контента и технической стороны сайта, стратегию построения ссылок и
+                                    улучшение пользовательского опыта для повышения рейтинга сайта в поисковых системах.
+                                    <br><br>
+                                    В чем заключается сео-оптимизация в Ташкенте?
+                                    Сео-оптимизация в Ташкенте включает адаптацию сайта под местные поисковые
+                                    требования, улучшение контента и технического состояния сайта для увеличения его
+                                    видимости
+                                    <br><br>
+
+
+                                    Каковы особенности SEO оптимизации в Ташкенте?
+                                    SEO оптимизация в Ташкенте требует понимания местного рынка, культурных особенностей
+                                    и предпочтений целевой аудитории, включая ключевые слова, тенденции и ожидания
+                                    аудитории.
+
+                                    <br><br>
+
+
+                                    Каковы основные различия между продвижением сайтов в Google и Yandex?
+                                    Продвижение сайтов в Google и Яндекс может отличаться в зависимости от специфики
+                                    алгоритмов каждой поисковой системы, что требует разных подходов к раскрутке.
+
+                                    <br><br>
+
+
+                                    Каковы преимущества поискового продвижения сайтов в Google и Yandex?
+                                    Поисковое продвижение в Google и Yandex помогает увеличить видимость сайта,
+                                    привлекая целевую аудиторию и улучшая позиции в поисковых результатах.
+
+                                    <br><br>
+
+                                    В чем заключается роль SEO специалиста?
+                                    Роль данного специалиста заключается в разработке и реализации стратегий продвижения
+                                    сайта, анализе результатов и адаптации подходов для улучшения видимости сайта в
+                                    поисковых системах.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-title" onclick="toggleFaq(this)">
+                                Планирование и заказ SEO услуг:
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div class="faq-content">
+                                <p>
+                                    Как заказать SEO продвижение сайта?
+                                    Чтобы заказать SEO продвижение, необходимо обратиться в специализированное агентство
+                                    или квалифицированного специалиста, предоставив детали своего проекта и бизнес-цели.
+
+                                    <br><br>
+
+                                    Как выбрать подходящие услуги SEO для продвижения интернет-магазина?
+                                    При выборе услуг SEO для интернет магазина важно учитывать специфику бизнеса,
+                                    целевую аудиторию и конкурентную среду для разработки эффективной стратегии
+                                    продвижения.
+
+                                    <br><br>
+
+                                    Как выбрать агентство в Ташкенте для SEO-продвижения?
+                                    При выборе агентства в Ташкенте для SEO-продвижения важно учитывать их опыт,
+                                    портфолио, подход и отзывы клиентов.
+
+                                    <br><br>
+
+                                    Каковы последние тенденции в SEO для продвижения в интернете?
+                                    Современные тенденции включают фокус на мобильную оптимизацию, голосовой поиск,
+                                    локальное SEO и улучшение пользовательского опыта для увеличения видимости сайта в
+                                    интернете.
+
+                                    <br><br>
+
+                                    Какой подход к SEO эффективен в текущих условиях?
+                                    Комплексная оптимизация сайта, адаптация под текущие требования поисковых систем и
+                                    постоянный анализ результатов.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-title" onclick="toggleFaq(this)">
+                                Специфика регионального SEO:
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div class="faq-content">
+                                <p>
+                                    Как SEO продвижение сайта в Ташкенте отличается от других регионов?
+                                    SEO продвижение в Ташкенте учитывает местные особенности рынка, культурные и
+                                    языковые нюансы, что важно для привлечения целевой аудитории в этом регионе.
+
+                                    <br><br>
+
+                                    В чем различия регионального SEO продвижения и глобального?
+                                    Региональное продвижение фокусируется на локальной аудитории и релевантных
+                                    географических запросах, в то время как глобальное SEO ориентировано на достижение
+                                    видимости на международном уровне.
+
+                                    <br><br>
+
+                                    Как SEO продвижение в Ташкенте отличается от других городов Узбекистана?
+                                    SEO продвижение в Ташкенте может включать более специфические стратегии, нацеленные
+                                    на уникальные особенности и потребности столичного рынка по сравнению с другими
+                                    городами Узбекистана.
+
+                                    <br><br>
+
+                                    Какова роль продвижения в Ташкенте для местных сайтов?
+                                    Продвижение способствует увеличению видимости и привлекательности местных бизнесов в
+                                    интернете, особенно для целевой аудитории в Узбекистане.
+
+                                    <br><br>
+
+                                    Как SEO помогает продвигать сайты в Google в Ташкенте?
+                                    Помогает сайтам в Ташкенте улучшать свое ранжирование в Google, оптимизируя их под
+                                    специфику местного рынка и поведение целевой аудитории.
+
+                                    <br><br>
+
+                                    Как SEO влияет на продвижение сайтов в Ташкенте и других городах Узбекистана?
+                                    SEO оказывает влияние на продвижение в Ташкенте и Узбекистане в целом, улучшая их
+                                    онлайн-видимость и привлекая целевую аудиторию из разных регионов.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-title" onclick="toggleFaq(this)">
+                                Реализация и эффекты SEO:
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div class="faq-content">
+                                <p>
+                                    Сколько времени нужно для достижения результатов?
+                                    Время, необходимое для достижения результатов, зависит от многих факторов, таких как
+                                    конкуренция на рынке, качество сайта и другие. Мы стараемся достигнуть максимальных
+                                    результатов в кратчайшие сроки, но для этого нужно провести анализ вашего сайта и
+                                    определить наилучшую стратегию.
+
+                                    <br><br>
+
+                                    Какие гарантии на результаты вы предоставляете?
+                                    Мы гарантируем качественную работу и достижение максимальных результатов, но нельзя
+                                    гарантировать первое место в поисковой выдаче. Мы используем только лучшие практики
+                                    и технологии, чтобы достичь максимальных результатов.
+
+                                    <br><br>
+
+                                    В чем значение проверки сайта для SEO-оптимизации?
+                                    Проверка сайта для SEO включает анализ ключевых элементов, таких как контент,
+                                    метатеги, ссылки и технические аспекты, для идентификации и устранения потенциальных
+                                    проблем.
+
+                                    <br><br>
+
+                                    Как важны ссылки в процессе SEO-оптимизации?
+                                    Качественные обратные ссылки увеличивают авторитет сайта в глазах поисковых систем,
+                                    таких как Yandex и Google, что способствует улучшению его ранжирования.
+
+                                    <br><br>
+
+                                    Каковы особенности внешней оптимизации в SEO?
+                                    Внешняя оптимизация в SEO включает стратегии построения ссылок и улучшение видимости
+                                    сайта в интернете через различные каналы, включая социальные сети и блоги.
+
+                                    <br><br>
+
+                                    Что нужно делать после SEO оптимизации сайта?
+                                    После SEO оптимизации сайта необходимо продолжать работу над его продвижением и
+                                    развитием. Это может включать в себя создание новых контентных страниц, улучшение
+                                    пользовательского опыта и другие мероприятия. Мы также предлагаем услуги по
+                                    продвижению сайта и готовы помочь нашим клиентам в достижении максимальных
+                                    результатов.
+
+                                    <br><br>
+
+                                    Каковы ключевые шаги SEO продвижения сайта в Ташкенте?
+                                    SEO продвижение сайта в Ташкенте включает местную оптимизацию, анализ конкурентов,
+                                    создание контента, соответствующего местным запросам, и стратегии построения ссылок.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-title" onclick="toggleFaq(this)">
+                                Влияние SEO на бизнес:
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div class="faq-content">
+                                <p>
+                                    Как SEO продвижение сайта влияет на бизнес в Западных регионах?
+                                    SEO продвижение в регионах, включая Западные страны, помогает бизнесам значительно
+                                    увеличивать онлайн-видимость и привлекать международную аудиторию. Ведь на Западе
+                                    популярен не только Google, но и Bing от компании Microsoft.
+
+                                    <br><br>
+
+                                    Как SEO способствует выводу бизнес сайта в топ Яндекса и Google?
+                                    SEO способствует выводу бизнес-сайта в топ поисковых систем за счет улучшения
+                                    видимости бренда, релевантности и авторитета в глазах алгоритмов поисковых систем.
+
+                                    <br><br>
+
+                                    Как профессиональное продвижение сайта влияет на бизнес?
+                                    Оно помогает бизнесу увеличить онлайн-присутствие, улучшить видимость бренда и
+                                    привлекать больше потенциальных клиентов.
+
+                                    <br><br>
+
+                                    Как SEO в Ташкенте помогает бизнесу?
+                                    SEO в Ташкенте помогает бизнесу увеличивать онлайн-видимость, привлекая больше
+                                    потенциальных клиентов и улучшая рейтинг в локальных поисковых запросах.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-title" onclick="toggleFaq(this)">
+                                Технические аспекты SEO:
+                                <span class="arrow">&#9660;</span>
+                            </div>
+                            <div class="faq-content">
+                                <p>
+                                    Каковы особенности работы с конструкторами сайтов при SEO-продвижении?
+                                    Работа с конструкторами сайтов, такими как Glotr.uz, требует учета их ограничений и
+                                    возможностей для эффективной SEO-оптимизации и продвижения сайта.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="submit">
+            <div class="container">
+                <div class="submit__desc">
+                    <h2 class="submit__desc-title ">Оставить заявку</h2>
+                    <p class="submit__desc-txt">Смело отправляйте заявку прямо сейчас! Наши специалисты помогут бесплатно провести диагностику ваших аккаунтов. Мы всегда открыты для общения и готовы ответить на любые вопросы.</p>
+                </div>
+                <form class="submit__form">
+                    <input type="text" name="name" placeholder="Имя" required>
+                    <input type="number" class="form__number" name="phone" placeholder="Ваш телефон: + X" required>
+                    <span>Нажимая на кнопку, вы даете согласие на <a href=""> обработку персональных данных</a>.</span>
+                    <button  type="submit" class="submit__btn" data-src="noHelp">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <h4 class="footer__list-title">ИНФОРМАЦИЯ:</h4>
+                <li class="footer__list-item">
+                    <a href="portfolio.html" class="footer__list-link">Кейсы</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="about.html" class="footer__list-link">О нас</a>
+                </li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">УСЛУГИ:</h4>
+                <li class="footer__list-item">Разработка сайтов</li>
+                <li class="footer__list-item">Интернет маркетинг</li>
+                <li class="footer__list-item"> SEO оптимизация</li>
+                <li class="footer__list-item">Контекстная реклама</li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">СОЗДАНИЕ САЙТОВ:</h4>
+                <li class="footer__list-item">Разработка Landing Page</li>
+                <li class="footer__list-item">Разработка корпоративного сайта</li>
+                <li class="footer__list-item"> Разработка интернет магазинов</li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">КОНТАКТЫ:</h4>
+                <li class="footer__list-item">
+                    <a href="tel:+994514119537"  class="footer__list-contact"><i class='bx bxs-phone' ></i> +994 51 411 95 37</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="tel:+79200948082"  class="footer__list-contact"><i class='bx bxs-phone' ></i> +7 920 094 80 82</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="tel:+998971497788"  class="footer__list-contact"><i class='bx bxs-phone' ></i> +998 97 149 77 88</a>
+                </li>
+                <!-- <li class="footer__list-item">
+                    <a href="" class="footer__list-contact"><i class='bx bxl-gmail' ></i>mukhtarovbilol@gmail.com</a>
+                </li> -->
+            </ul>
+        </div>
+    </footer>
+
+    <div class="modal" id="my-modal">
+        <div class="modal__box">
+            <button class="modal__close-btn" id="close-my-modal-btn">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                        fill="#333333" />
+                    <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                </svg>
+            </button>
+
+            <h2>Оставить заявку</h2>
+
+            <form class="form submit__form">
+                <input type="text" placeholder="Имя" name="name" id="name" required>
+                <input type="number" name="phone" placeholder="Телефон: + X" required>
+                <span>Нажимая на кнопку, вы даете согласие на <a href=""> обработку персональных данных</a>.</span>
+                <button type="submit" class="submit__btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

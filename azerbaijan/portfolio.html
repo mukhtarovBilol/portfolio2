@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="modal/css/style.css">
+    <link rel="stylesheet" href="modal/css/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="description" content="Просмотрите наше портфолио, чтобы увидеть примеры успешных проектов в области веб-разработки, SEO и контекстной рекламы. Мы гордимся результатами нашей работы и довольными клиентами.">
+    <meta name="copyright" content="Web Top">
+    <meta itemprop="name" content="Портфолио | Web Top">
+    <meta itemprop="url" content="https://www.yourwebsite.com/portfolio">
+    <meta itemprop="description" content="Наше портфолио демонстрирует лучшие проекты в области веб-разработки, SEO и контекстной рекламы. Ознакомьтесь с результатами нашей работы и убедитесь в качестве наших услуг.">
+    <meta name="keywords" content="портфолио, веб-разработка, SEO, контекстная реклама, примеры работ">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.yourwebsite.com/path-to-portfolio-image.jpg">
+    <meta property="og:title" content="Портфолио | Web Top">
+    <meta property="og:description" content="Ознакомьтесь с нашим портфолио, чтобы увидеть успешные примеры веб-разработки, SEO и контекстной рекламы. Мы предлагаем качественные решения для вашего бизнеса.">
+    <meta property="og:url" content="https://www.yourwebsite.com/portfolio">
+    <meta property="og:site_name" content="Web Top">
+</head>
+<body>
+
+    <nav class="nav portfolio__nav">
+        <div class="container">
+            <div class="container">
+                <div class="nav__menu">
+                    <div class="nav__common">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <a href="index.html" class="nav__list-link">Разработка сайтов</a>
+                            </li>
+                            <li class="nav__list-item ">
+                                <a href="seo.html" class="nav__list-link icons">SEO</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="reklama.html" class="nav__list-link icons">Контекстная реклама</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="portfolio.html" class="nav__list-link">Портфолио</a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a href="about.html" class="nav__list-link">О нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="nav__phone modal-btn" data-src="noHelp">Обсудить проект</button>
+                    <div class="nav__burger" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="nav__desc">
+                    <p class="nav__desc-txt">Маркетинговая диджитал компания Web Top</p>
+                    <div class="nav__desc-language">
+                        <a href="tel:+994514119537" class="nav__desc-link">+994 51 411 95 37</a>
+                        <div class="nav__language-current">
+                            <div id="currentFlag">
+                                <img src="image/header/az.jpg" alt="Current Language" class="nav__language-image" >
+                                <p class="nav__language-image" >Azerbaijan</p>
+                            </div>
+                            <div class="nav__language-dropdown" id="languageDropdown">
+                                <a href="../index.html" class="nav__language-option" data-country="az" data-flag="image/header/russia.jfif">
+                                    <img src="image/header/russia.jfif" alt="Azerbaijan Flag" class="nav__language-image">
+                                    Русский
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="open">
+        <section class="portfolio__intro">
+            <div class="container">
+                <h1 class="portfolio__title main__title">Компании, с которыми мы работали</h1>
+                <p class="portfolio__description">
+                    Мы гордимся сотрудничеством с этими выдающимися компаниями. Ниже вы можете увидеть наши проекты в разных категориях.
+                </p>
+                <div class="portfolio__categories">
+                    <button class="portfolio__category-btn" data-category="web">Веб-разработка</button>
+                    <button class="portfolio__category-btn" data-category="figma">Figma</button>
+                </div>
+            </div>
+        </section>
+        <section class="main">
+            <div class="container">
+                <div class="main__cards">
+                    <div class="content web active">
+                        <h3 class="content__title">Сайты</h3>
+                        <div class="content__wrapper">
+                            <div class="main__card web">
+                                <img src="image/portfolio/light-studio.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Light-studio</h3>
+                                    <a href="https://all-lightings.com/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/olimpFood.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Olimp Food</h3>
+                                    <a href="https://olimpfood.com/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/msdel.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">MSDel</h3>
+                                    <a href="portfolio.html" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/aluetech.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Окна Двери Фасады Ворота</h3>
+                                    <a href="https://alutech-company.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/getrentacar.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Get Rent a Car</h3>
+                                    <a href="https://getrentacar.az/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/galaks.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Ведущий комплекс металлопроизводства</h3>
+                                    <a href="https://galaks-mk.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/ramp.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Рампы эстакады </h3>
+                                    <a href="https://rampatut.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/amana.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Amana house </h3>
+                                    <a href="https://amanahouse.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/shelfStone.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Shelf Stone </h3>
+                                    <a href="https://sherlstone.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/armoa.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Aroma </h3>
+                                    <a href="https://aroma-bottle.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/lyuks.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">ЛЕПНИНА ИЗ ГИПСА </h3>
+                                    <a href="https://lux-gips.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                            <div class="main__card web">
+                                <img src="image/portfolio/lnc-effect.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">LNC EFFECT </h3>
+                                    <a href="https://lnc-effect.ru/" target="_blank" class="main__card-desc-link">Перейти на сайт</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content figma">
+                        <h3 class="content__title">Макеты из Фигмы</h3>
+                        <div class="content__wrapper">
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-moyka.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Авто мойка</h3>
+                                    <a href="https://www.figma.com/design/ovIXpf0Le07LCkkwVTnlOY/%D0%B0%D0%B2%D1%82%D0%BE-%D0%BC%D0%BE%D0%B9%D0%BA%D0%B0?node-id=0-1&t=NSmzyLItaCVjYacw-0" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-glss.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Окна</h3>
+                                    <a href="https://www.figma.com/design/yJGwgaJK2Lm10OwhaPISGr/%D0%9E%D0%BA%D0%BD%D0%B0-%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B9-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82?node-id=0-1&t=e7tqtjjoeJaWQGrd-0" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-travertin.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Травертин</h3>
+                                    <a href="https://www.figma.com/design/pnvEnsctA6xavGFJxjTIQ6/%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?node-id=0-1&t=TepuxlKO7Y0khOKS-0" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-logos.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Ресторан</h3>
+                                    <a href="https://www.figma.com/design/tIIMes3KBqO7EycUFTEwSc/%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD-%D0%B0%D0%BF%D1%88%D0%B5%D1%80%D0%BE%D0%BD?node-id=0-1&t=tSp9M2xHFv1QMiWN-0" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-stair.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Магазин услуг</h3>
+                                    <a href="https://www.figma.com/proto/08X1vckGtGtp5UTFCrgqWf/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-AG?node-id=15-2639" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-milk.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Продукция Молока</h3>
+                                    <a href="https://www.figma.com/proto/jDvpExbHumydutVI9rk0T0/%D0%A4%D0%B5%D1%80%D0%BC%D0%B0-%D0%91%D0%BE%D0%B3%D0%B8%D0%BC%D0%BE%D0%B2%D0%BE?node-id=1873-149" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                            <div class="main__card figma">
+                                <img src="image/portfolio/figma-metall.png" alt="" class="main__card-image">
+                                <div class="main__card-desc">
+                                    <h3 class="main__card-desc-title">Металоконструкция</h3>
+                                    <a href="https://www.figma.com/design/LEllj4vs0CZOnClT4V0ZdZrn/%D0%9C%D0%B5%D1%82%D0%B0%D0%BB%D0%BE%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F?node-id=0-1&t=urc6atcRTmSOIquw-0" target="_blank" class="main__card-desc-link">Посмотреть проект</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <h4 class="footer__list-title">ИНФОРМАЦИЯ:</h4>
+                <li class="footer__list-item">
+                    <a href="portfolio.html" class="footer__list-link">Кейсы</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="about.html" class="footer__list-link">О нас</a>
+                </li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">УСЛУГИ:</h4>
+                <li class="footer__list-item">Разработка сайтов</li>
+                <li class="footer__list-item">Интернет маркетинг</li>
+                <li class="footer__list-item"> SEO оптимизация</li>
+                <li class="footer__list-item">Контекстная реклама</li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">СОЗДАНИЕ САЙТОВ:</h4>
+                <li class="footer__list-item">Разработка Landing Page</li>
+                <li class="footer__list-item">Разработка корпоративного сайта</li>
+                <li class="footer__list-item"> Разработка интернет магазинов</li>
+            </ul>
+            <ul class="footer__list">
+                <h4 class="footer__list-title">КОНТАКТЫ:</h4>
+                <li class="footer__list-item">
+                    <a href="tel:+994514119537"  class="footer__list-contact"><i class='bx bxs-phone' ></i> +994 51 411 95 37</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="tel:+79200948082"  class="footer__list-contact"><i class='bx bxs-phone' ></i> +7 920 094 80 82</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="tel:+998971497788"  class="footer__list-contact"><i class='bx bxs-phone' ></i> +998 97 149 77 88</a>
+                </li>
+                <!-- <li class="footer__list-item">
+                    <a href="" class="footer__list-contact"><i class='bx bxl-gmail' ></i>mukhtarovbilol@gmail.com</a>
+                </li> -->
+            </ul>
+        </div>
+    </footer>
+
+    <div class="modal" id="my-modal">
+        <div class="modal__box">
+            <button class="modal__close-btn" id="close-my-modal-btn">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                        fill="#333333" />
+                    <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                </svg>
+            </button>
+
+            <h2>Оставить заявку</h2>
+
+            <form class="form submit__form">
+                <input type="text" placeholder="Имя" name="name" id="name" required>
+                <input type="number" name="phone" placeholder="Телефон: + X" required>
+                <span>Нажимая на кнопку, вы даете согласие на <a href=""> обработку персональных данных</a>.</span>
+                <button type="submit" class="submit__btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
